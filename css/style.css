@@ -475,8 +475,8 @@ a:focus {
 }
 
 .product_section .options .option1 {
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: #d9f744;
+  border: 1px solid #000000;
   color: #ffffff;
 }
 
@@ -1275,6 +1275,42 @@ body{
 
 .Updated{
   text-align: center;
+}
+.bg-4{
+  background-color: rgb(213, 222, 90);
+}
+.about-hs .head{
+  font-style: italic;
+}
+.about-hs2 h1{
+  font-size: 4em;
+}
+.about-hs2 p{
+  letter-spacing: 3px;
+    font-size: 1.3em;
+}
+/* ABout animations */
+
+.about-img{
+  animation: moveAround 5s infinite ease-in-out;
+}
+@keyframes moveAround {
+  0%{transform: translate(0,0);}
+  25%{transform: translate(10px,10px);}
+  50%{transform: translate(-10px,-10px);}
+  75%{transform: translate(10px,-10px);}
+  100%{transform: translate(0,0);}
+}
+
+.about-img2{
+  animation: moveAround2 5s infinite ease-in-out;
+}
+@keyframes moveAround2 {
+  0%{transform: translate(0,0);}
+  25%{transform: translate(10px,-10px);}
+  50%{transform: translate(-10px,-10px);}
+  75%{transform: translate(10px,10px);}
+  100%{transform: translate(0,0);}
 }
 
 /* http://kute-themes.com/html/boutique/html/index.html
