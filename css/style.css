@@ -1280,7 +1280,9 @@ body{
   background-color: rgb(222, 182, 90);
 }
 .about-hs .head{
-  font-style: italic;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 3px;
 }
 .about-hs2 h1{
   font-size: 4em;
@@ -1318,6 +1320,9 @@ body{
 }
 .links-bui{
   padding: 10px 10px;
+}
+.mq-des{
+  margin-top: 5px;
 }
 
 /* http://kute-themes.com/html/boutique/html/index.html
